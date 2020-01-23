@@ -10,7 +10,7 @@ def choose_color(last_color):
         c = random.choice(colors)
     return c
 
-
+# Lines 6-11 represents that the last color (output) will be random from the following list above
 
 
 print('Greetings!')
