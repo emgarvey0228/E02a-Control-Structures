@@ -10,3 +10,5 @@ if (color.lower() == 'red'):
     print('Correct!')
 else:
     print('Sorry, try again.')
+    # On line 9, this fixes the problem of answering Red in various forms of capitalization (such as RED, rED, ReD)
+    # If a space is added before or after the input, the new output is "Sorry, try again."

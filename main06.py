@@ -10,3 +10,5 @@ if (color.lower().strip() == 'red'):
     print('Correct!')
 else:
     print('Sorry, try again.')
+    # Line 9 now has .strip() added
+    # The only way I found that ruined the logic of line 9 is if you spell red with spaces inbetween the letters such as "r e d"
